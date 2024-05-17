@@ -21,5 +21,9 @@ void disp(avg r)
 int main(){
     avg r;
     r.get(45,65,25,35,260);
+    
+    avg r1;
+    r1.get(45,65,25,35,260);
     disp(r);
+    disp(r1);
 }
